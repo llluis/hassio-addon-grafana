@@ -33,6 +33,7 @@ ports_description:
 schema:
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
   plugins:
+    - str
     - name: str
       url: str?
       unsigned: bool?
