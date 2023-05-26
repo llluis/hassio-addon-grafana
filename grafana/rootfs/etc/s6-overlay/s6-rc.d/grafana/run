@@ -33,7 +33,7 @@ if bashio::config.has_value 'plugins'; then
             unsigned_plugins+="${name},"
 		fi
     done
-	export "GF_PLUGINS_ALLOW_LOADING_UNSIGNED_PLUGINS=${unsigned_plugins}"
+    export "GF_PLUGINS_ALLOW_LOADING_UNSIGNED_PLUGINS=${unsigned_plugins}"
 fi
 
 
